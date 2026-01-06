@@ -1,0 +1,143 @@
+/* Minimalist Monospace Website Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', 'Courier', 'Monaco', monospace;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fff;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+header {
+    border-bottom: 1px solid #333;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+}
+
+nav {
+    margin-top: 1rem;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    margin-right: 1.5rem;
+    padding-bottom: 0.25rem;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+nav a:hover {
+    border-bottom: 1px solid #333;
+}
+
+main {
+    margin-bottom: 3rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+a {
+    color: #333;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul, ol {
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+footer {
+    border-top: 1px solid #333;
+    padding-top: 1rem;
+    margin-top: 3rem;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+code {
+    font-family: 'Courier New', 'Courier', 'Monaco', monospace;
+    background-color: #f5f5f5;
+    padding: 0.2rem 0.4rem;
+    font-size: 0.9em;
+}
+
+pre {
+    font-family: 'Courier New', 'Courier', 'Monaco', monospace;
+    background-color: #f5f5f5;
+    padding: 1rem;
+    overflow-x: auto;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+}
+
+pre code {
+    background-color: transparent;
+    padding: 0;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #333;
+    margin: 2rem 0;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    body {
+        padding: 1rem;
+    }
+    
+    h1 {
+        font-size: 1.5rem;
+    }
+    
+    h2 {
+        font-size: 1.25rem;
+    }
+    
+    nav a {
+        display: block;
+        margin-bottom: 0.5rem;
+    }
+}
+
