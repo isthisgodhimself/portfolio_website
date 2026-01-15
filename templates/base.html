@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}Minimalist Website{% endblock %}</title>
+    <title>{% block title %}DJ{% endblock %}</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
     <header>
-        <h1>{% block header %}Minimalist Website{% endblock %}</h1>
+        <h1>{% block header %}portfolio{% endblock %}</h1>
         <nav>
             <a href="{{ url_for('index') }}">home</a>
+            <a href="{{ url_for('projects') }}">projects</a>
             <a href="{{ url_for('about') }}">about</a>
         </nav>
     </header>
@@ -20,7 +21,7 @@
     </main>
     
     <footer>
-        <p>© 2025 — minimalist design, monospace fonts</p>
+        <p>made with ❤️ in flask</p>
     </footer>
 </body>
 </html>

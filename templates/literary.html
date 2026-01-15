@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %}DJ{% endblock %}
+
+{% block header %}portfolio{% endblock %}
+
+{% block content %}
+<h2>literary works</h2>
+<p>Collection of writings on philosophy, physics, and technology.</p>
+
+<h2>poems</h2>
+<p><a href="{{ url_for('phone_poem') }}">PHONE PHONE O MY PHONE…</a></p>
+
+<h2>writings</h2>
+<p>Here you'll find my thoughts and reflections on various topics.</p>
+
+<h2>philosophy</h2>
+<p>Explorations of meaning, existence, and the human condition.</p>
+
+<h2>physics</h2>
+<p>Thoughts on the nature of reality, space, time, and the universe.</p>
+
+<h2>technology</h2>
+<p>Reflections on technology's impact on society and human experience.</p>
+{% endblock %}

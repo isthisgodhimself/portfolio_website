@@ -1,6 +1,6 @@
-# Minimalist Website
+# Portfolio Website
 
-A simple, clean website built with Python and Flask featuring monospace fonts and minimalist design.
+A minimalist portfolio website built with Python and Flask featuring monospace fonts and clean design.
 
 ## Features
 
@@ -8,6 +8,7 @@ A simple, clean website built with Python and Flask featuring monospace fonts an
 - Minimalist design principles
 - Simple HTML structure
 - Responsive layout
+- Portfolio-focused content
 - Easy to customize
 
 ## Setup

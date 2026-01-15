@@ -27,10 +27,28 @@ def index():
     return render_template('index.html')
 
 
+@app.route('/projects')
+def projects():
+    """Projects page"""
+    return render_template('projects.html')
+
+
 @app.route('/about')
 def about():
     """About page"""
     return render_template('about.html')
+
+
+@app.route('/literary')
+def literary():
+    """Literary works page"""
+    return render_template('literary.html')
+
+
+@app.route('/literary/phone-poem')
+def phone_poem():
+    """Phone Phone O My Phone poem page"""
+    return render_template('phone_poem.html')
 
 
 if __name__ == '__main__':
